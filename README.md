@@ -1,20 +1,12 @@
-# Inverted_Index
+## Inverted_Index
 implementation of an inverted index for text documents using NLTK
 
 This Python script demonstrates the creation and usage of an inverted index for a collection of text documents. An inverted index is a data structure commonly used in information retrieval systems to efficiently store and retrieve text-based information.
 
-# Text Document Inverted Index
-
-This Python script demonstrates the creation and usage of an inverted index for a collection of text documents. An inverted index is a data structure commonly used in information retrieval systems to efficiently store and retrieve text-based information.
-
-## Features
-
-- Efficiently creates an inverted index from a collection of text documents.
-- Supports querying for documents containing specific words.
 - Performs text preprocessing, including tokenization, punctuation removal, stopword removal, and lemmatization.
 - Uses the Natural Language Toolkit (NLTK) library for text processing tasks.
 
-## Getting Started
+# Getting Started
 
 1. **Prerequisites:** Ensure you have Python and the NLTK library installed.
    
@@ -36,7 +28,7 @@ This Python script demonstrates the creation and usage of an inverted index for 
 
 6. Customize and Query: Modify the run_query method in the InvIndex class to perform custom queries on the created inverted index.
 
-**Code Overview**
+# Code Overview
 main.py: The main script that imports the necessary modules, defines the InvIndex class, reads document files, creates an instance of InvIndex, and performs a sample query.
 funcs.py: Contains the functions for text preprocessing, such as punctuation removal and stopwords handling.
 docs/: A directory to place your text document files.
